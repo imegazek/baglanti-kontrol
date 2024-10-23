@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Benim Başlığım", page_icon="🧮")
+st.set_page_config(page_title="Bu Site Güvenli mi?", page_icon="🧮")
 
 st.title("Bağlantı Güvenliği Kontrol Aracı")
 
