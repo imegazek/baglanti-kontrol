@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Bu Site Güvenli mi?", page_icon="🧮")
+st.set_page_config(page_title="Bu Site Güvenli mi?", page_icon="🌍")
 
 st.title("Bağlantı Güvenliği Kontrol Aracı")
 
@@ -13,7 +13,7 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-url = st.text_input(" ")
+url = st.text_input("Bağlantı güvenliğini test etmek istediğiniz sitenin URL'sini yapıştırınız:")
 
 if url.startswith("https"):
     st.text("Bağlantınız Güvenli:Bilgileriniz (örneğin şifreler veya kredi kartı numaraları) bu siteye gönderilirken gizli olur.")
