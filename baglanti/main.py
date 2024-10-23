@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Benim Başlığım", page_icon="🧮")
+
 st.title("Bağlantı Güvenliği Kontrol Aracı")
 
 hide_st_style = """
@@ -10,8 +12,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-st.set_page_config(page_title="Benim Başlığım", page_icon="🌟")
 
 url = st.text_input(" ")
 
