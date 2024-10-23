@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.ttlie("Bağlantı Güvenliği Kontrol Aracı")
+st.title("Bağlantı Güvenliği Kontrol Aracı")
 
 st.html(
     '<p>Naber Cınım<p>'
