@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.ttlie("Bağlantı Güvenliği Kontrol Aracı")
+
 url = st.text_input(" ")
 
 if url.startswith("https"):
